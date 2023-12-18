@@ -13,7 +13,7 @@ class App {
         this.totalSnow = 1250;
         this.wind = 0;
         for (var i = 0; i < this.totalSnow; i++) {
-            this.snow[i] = new Snow((Math.random()-0.5)*this.stageWidth*3, (Math.random()-1)*50, 5);
+            this.snow[i] = new Snow((Math.random()-0.5)*this.stageWidth*3, (Math.random()-1)*50, 3);
         }
         this.pile = [];
         for (var i = 0; i <= this.stageWidth; i++) {
